@@ -509,14 +509,6 @@
                     <scope>runtime</scope>
                 </dependency>
             </dependencies>
-            <dependencies>
-                <dependency>
-                    <groupId>org.postgresql</groupId>
-                    <artifactId>postgresql</artifactId>
-                    <version>${postgresql-driver.version}</version>
-                    <scope>runtime</scope>
-                </dependency>
-            </dependencies>
         </profile>
    </profiles>
 
