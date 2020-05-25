@@ -516,9 +516,9 @@
                 <db.script>postgresql</db.script>
                 <jpa.database>POSTGRESQL</jpa.database>
                 <jdbc.driverClassName>org.postgresql.Driver</jdbc.driverClassName>
-                <jdbc.url>jdbc:postgresql://localhost:5432/petclinic</jdbc.url>
-                <jdbc.username>postgres</jdbc.username>
-                <jdbc.password>petclinic</jdbc.password>
+                <jdbc.url>jdbc:postgresql://mahi.ctasx6acaz1b.us-west-2.rds.amazonaws.com/petclinic</jdbc.url>
+                <jdbc.username>admin</jdbc.username>
+                <jdbc.password>cggrL123</jdbc.password>
             </properties>
             <dependencies>
                 <dependency>
