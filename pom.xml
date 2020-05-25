@@ -509,17 +509,6 @@
                     <scope>runtime</scope>
                 </dependency>
             </dependencies>
-        </profile>
-        <profile>
-            <id>PostgreSQL</id>
-            <properties>
-                <db.script>postgresql</db.script>
-                <jpa.database>POSTGRESQL</jpa.database>
-                <jdbc.driverClassName>org.postgresql.Driver</jdbc.driverClassName>
-                <jdbc.url>jdbc:postgresql://localhost:5432/petclinic</jdbc.url>
-                <jdbc.username>postgres</jdbc.username>
-                <jdbc.password>petclinic</jdbc.password>
-            </properties>
             <dependencies>
                 <dependency>
                     <groupId>org.postgresql</groupId>
