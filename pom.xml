@@ -490,6 +490,17 @@
                     <scope>runtime</scope>
                 </dependency>
             </dependencies>
+        <distributionManagement>
+		 <snapshotRepository>
+		    <id>nexus_mohan</id>
+		    <url>http://35.154.218.167:8081/repository/maven-snapshots/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>nexus_mohan</id>
+		    <url>http://35.154.218.167:8081/repository/maven-releases/</url>
+		</repository>
+  	</distributionManagement>
         </profile>
         <profile>
             <id>MySQL</id>
