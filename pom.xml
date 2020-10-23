@@ -493,12 +493,12 @@
         <distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus_mohan</id>
-		    <url>http://35.154.218.167:8081/repository/maven-snapshots/</url>
+		    <url>http://35.154.218.167:8081/repository/mohan_release/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus_mohan</id>
-		    <url>http://35.154.218.167:8081/repository/maven-releases/</url>
+		    <url>http://35.154.218.167:8081/repository/mohan_release//</url>
 		</repository>
   	</distributionManagement>
         </profile>
