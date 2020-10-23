@@ -150,8 +150,8 @@ under the License.
   <mirrors>
     
     <mirror>
-      <id>mirrorId</id>
-      <mirrorOf>nexus_mohan</mirrorOf>
+      <id>nexus_mohan</id>
+      <mirrorOf>*</mirrorOf>
       <name>Human Readable Name for this Mirror.</name>
       <url>http://35.154.218.167:8081/repository/mohan_proxy/</url>
     </mirror>
