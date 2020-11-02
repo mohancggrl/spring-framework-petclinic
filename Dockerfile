@@ -8,8 +8,7 @@ FROM maven as maven
 RUN mkdir /usr/src/mymaven
 WORKDIR /usr/src/mymaven
 COPY --from=git /tmp/spring-framework-petclinic .
-RUN mvn clean package
-RUN sleep 60s
+RUN mvn clean package -DskipTests
 
 FROM tomcat
 WORKDIR webapps
