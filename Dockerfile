@@ -9,7 +9,7 @@ RUN mkdir /usr/src/mymaven
 WORKDIR /usr/src/mymaven
 COPY --from=git /tmp/spring-framework-petclinic .
 RUN mvn clean package
-RUN sleep 60
+RUN sleep 60s
 
 FROM tomcat
 WORKDIR webapps
