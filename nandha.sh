@@ -1,2 +1,2 @@
-echo "this is" + ${user}
+echo ${user}
 mkdir /tmp/${user1}
